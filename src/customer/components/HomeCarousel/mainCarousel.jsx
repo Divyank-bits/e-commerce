@@ -12,6 +12,10 @@ const MainCarousel = () => {
         <AliceCarousel
             mouseTracking
             items={items}
+            disableButtonsControls
+            autoPlay
+            autoPlayInterval={1000}
+            infinite
         />
         </div>
     )
